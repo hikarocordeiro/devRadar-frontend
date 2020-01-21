@@ -3,6 +3,7 @@ import React from 'react';
 import './global.css'
 import './App.css'
 import './Sidebar.css'
+import './Main.css'
 
 function App() {
   return (
@@ -35,8 +36,57 @@ function App() {
           <button type="submit">Salvar</button>
         </form>
       </aside>
+      
       <main>
+        <ul>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars0.githubusercontent.com/u/19976090?s=460&v=4" alt="Hikaro Cordeiro"/>
+              <div className="user-info">
+                <strong>Hikaro Cordeiro</strong>
+                <span>ReactJS, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Bio text goes here</p>
+            <a href="https://github.com/hikarocordeiro">Acessar perfil no Github</a>
+          </li>
 
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars0.githubusercontent.com/u/19976090?s=460&v=4" alt="Hikaro Cordeiro"/>
+              <div className="user-info">
+                <strong>Hikaro Cordeiro</strong>
+                <span>ReactJS, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Bio text goes here</p>
+            <a href="https://github.com/hikarocordeiro">Acessar perfil no Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars0.githubusercontent.com/u/19976090?s=460&v=4" alt="Hikaro Cordeiro"/>
+              <div className="user-info">
+                <strong>Hikaro Cordeiro</strong>
+                <span>ReactJS, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Bio text goes here</p>
+            <a href="https://github.com/hikarocordeiro">Acessar perfil no Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars0.githubusercontent.com/u/19976090?s=460&v=4" alt="Hikaro Cordeiro"/>
+              <div className="user-info">
+                <strong>Hikaro Cordeiro</strong>
+                <span>ReactJS, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Bio text goes here</p>
+            <a href="https://github.com/hikarocordeiro">Acessar perfil no Github</a>
+          </li>
+        </ul>
       </main>
     </div>
   );
